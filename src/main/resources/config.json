@@ -1,0 +1,18 @@
+{
+  "googleApiConfig": {
+    "credentialsFile": "/Users/cvonsee/portlandsoftworks/StatBid/client_secret_18981351914-mrj5e1qcec2mop32bn6tg4pcol6ljta9.apps.googleusercontent.com.json",
+    "refreshTokenCache": "/Users/cvonsee/portlandsoftworks/StatBid/ga_refresh_token.txt"
+  },
+  "reportConfig": {
+    "reportOutputDir": "./reports",
+    "reports": [
+      {
+        "type": "GA4ReportConfig",
+        "accountFileName": "./ga_accounts.csv",
+        "reportFileName": "/Users/cvonsee/temp/reports/GA4Report.csv",
+        "daysToReport": 1,
+        "fromDate": "2023-11-15"
+      }
+    ]
+  }
+}

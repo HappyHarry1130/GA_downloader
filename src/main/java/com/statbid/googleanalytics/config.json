@@ -1,0 +1,19 @@
+{
+  "googleApiConfig": {
+    "projectId": "monday-drive",
+    "credentialsFile": "D:/New folder/ga_downloader-develop/target/client_secret.json",
+    "refreshTokenCache": "D:/New folder/ga_downloader-develop/target/ga_refresh_token.txt"
+  },
+  "reportConfig": {
+    "reportOutputDir": "./output",
+    "reports": [
+      {
+        "type": "GAReportConfig",
+        "accountFileName": "D:/New folder/ga_downloader-develop/target/account_ids.txt",
+        "reportFileName": "D:/New folder/ga_downloader-develop/output/report.csv",
+        "daysToReport": 30,
+        "fromDate": "2024-06-12"
+      }
+    ]
+  }
+}
